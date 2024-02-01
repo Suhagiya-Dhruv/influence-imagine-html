@@ -55,21 +55,21 @@
 /*----------------------------------------*/
 :root {
   --primary: #c9f31d;
-  --secondary: #2c2c2c;
-  --black: #000;
-  --black-2: #121212;
-  --black-3: #555;
-  --black-4: #1d1d1d;
-  --black-5: #343434;
-  --black-6: #262626;
-  --black-7: #555555;
-  --black-13: #666;
-  --white: #fff;
-  --white-2: #efefef;
-  --white-3: #e9e9e9;
-  --white-4: #f0f0f0;
-  --white-5: #fbfbfb;
-  --white-6: #d7d7d7;
+  --secondary: #ffffff;
+  --black: #ffffff;
+  --black-2: #ffffff;
+  --black-3: #ffffff;
+  --black-4: #ffffff;
+  --black-5: #ffffff;
+  --black-6: #ffffff;
+  --black-7: #ffffff;
+  --black-13: #ffffff;
+  --white: #000000;
+  --white-2: #000000;
+  --white-3: #000000;
+  --white-4: #000000;
+  --white-5: #000000;
+  --white-6: #000000;
   --gray: #c2c2c2;
   --gray-2: #999;
   --gray-3: #a8a8a8;
@@ -93,7 +93,7 @@
   --bg-line: #1e1e1e;
   --d-gray: #6A6A6A;
   --d-black: #1A1A1A;
-  --d-black-2: #171717;
+  --d-black-2: #ffffff;
   --d-black-3: #1A1A1A;
 }
 
@@ -128,7 +128,7 @@
 }
 
 .pb-110 {
-  padding-bottom: 110px;
+  padding-bottom: 60px;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .pb-110 {
@@ -265,7 +265,7 @@
 }
 
 .pt-110 {
-  padding-top: 110px;
+  padding-top: 40px;
 }
 @media only screen and (max-width: 767px) {
   .pt-110 {
@@ -648,7 +648,7 @@ img {
   z-index: 1;
 }
 
-.line {
+/* .line {
   position: relative;
 }
 .line::before {
@@ -668,7 +668,7 @@ img {
   left: calc(50% - 1px);
   top: 0;
   background: var(--white-4);
-}
+} */
 .line-3 {
   position: absolute;
   content: "";
@@ -1504,7 +1504,7 @@ img {
   background-color: var(--black-2);
 }
 .dark .cta__area .line {
-  padding-top: 150px;
+  padding-top: 42px;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .dark .cta__area .line {
@@ -5688,7 +5688,7 @@ img {
   font-size: 30px;
   width: 60px;
   height: 60px;
-  color: var(--white);
+  color: var(--black);
   background: #232323;
   border-radius: 100%;
   display: -webkit-box;
@@ -5830,7 +5830,6 @@ img {
   height: 100%;
   left: 0;
   top: 0;
-  background-color: rgba(0, 0, 0, 0.8);
 }
 .hero__area .hero1_bg {
   position: absolute;
@@ -6666,7 +6665,7 @@ img {
 }
 .hero__title {
   font-weight: 500;
-  font-size: 150px;
+  font-size: 100px;
   line-height: 1;
   color: var(--white);
   margin-top: 55px;
@@ -6694,22 +6693,7 @@ img {
     font-size: 48px;
   }
 }
-.hero__title::after {
-  position: absolute;
-  content: "Pro";
-  width: 70px;
-  height: 45px;
-  right: -80px;
-  top: 70px;
-  border: 2px solid var(--white);
-  border-radius: 15px;
-  font-weight: 600;
-  font-size: 24px;
-  line-height: 1.3;
-  color: var(--white);
-  text-align: center;
-  padding-top: 4px;
-}
+
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
   .hero__title::after {
     right: -30px;

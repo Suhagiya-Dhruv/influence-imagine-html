@@ -268,7 +268,7 @@
 }
 .footer-widget ul li a:hover,
 .footer-widget ol li a:hover{
-	color: #fff;
+	color: #000;
 }
 
 .footer-widget.categories_item ul li{
@@ -787,6 +787,8 @@ header .main-menu > li > .main-dropdown > li > .main-dropdown > li > a{
 @media only screen and (max-width: 1199px) {
 	#open_offcanvas{
 		display:block;
+    background-color: black;
+    transform: scale(-1,-1);
 	}
 	.header__inner-3.cf-no-gap{
 		-ms-grid-columns: 150px auto 50px;
